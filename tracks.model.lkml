@@ -4,7 +4,7 @@ connection: "redshift"
 include: "*.view"
 
 # include all dashboards in this project
-include: "*.dashboard"
+# include: "*.dashboard"
 
 explore: track_facts {
   view_label: "Events"
