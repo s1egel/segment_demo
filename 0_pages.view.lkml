@@ -32,6 +32,11 @@ view: pages {
     sql: ${TABLE}.context_campaign_name ;;
   }
 
+  dimension: context_campaign_source {
+    type: string
+    sql: ${TABLE}.context_campaign_source ;;
+  }
+
   dimension: name {
     type: string
     sql: ${TABLE}.name ;;
